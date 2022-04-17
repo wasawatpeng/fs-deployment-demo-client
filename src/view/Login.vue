@@ -51,8 +51,8 @@ export default {
     };
   },
   mounted(){
-      console.log("Login status: "+window.localStorage.getItem("isLogin"))
       window.localStorage.setItem("isLogin",0)
+      console.log("Login status: "+window.localStorage.getItem("isLogin"))
   },
   methods:{
       authLogin(){
